@@ -3,4 +3,10 @@ module.exports = {
 	output: {
 		filename: "./dist/app.js",
 	},
+	module: {
+		rules: [{
+			test: /\.js$/,
+			use: "babel-loader",
+		}],
+	},
 };
