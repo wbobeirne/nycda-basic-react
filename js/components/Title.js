@@ -1,4 +1,6 @@
 const React = require("react");
+const PropTypes = require("prop-types");
+// import PropTypes from 'prop-types';
 
 class Title extends React.Component {
 	render() {
@@ -7,5 +9,9 @@ class Title extends React.Component {
 		);
 	}
 }
+
+Title.propTypes = {
+	children: PropTypes.number.isRequired,
+};
 
 module.exports = Title;

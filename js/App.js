@@ -7,9 +7,9 @@ class App extends React.Component {
 	render() {
 		return (
 			<div className="app">
-				<Title>Test Title</Title>
-				<Description library="will.js"/>
-				<Font color="blue" size="3">Render this text</Font>
+				<Title>String</Title>
+				<Description library="React"/>
+				<Font color="red" size="10">Render this text</Font>
 			</div>
 		);
 	}
