@@ -1,6 +1,7 @@
 const React = require("react");
 const Title = require("./components/Title");
 const Description = require("./components/Description");
+const Counter = require("./components/Counter");
 
 class App extends React.Component {
 	render() {
@@ -8,6 +9,9 @@ class App extends React.Component {
 			<div className="app">
 				<Title>Test Title</Title>
 				<Description library="will.js"/>
+				<p>
+					You have been on my site for <Counter start={0}/> seconds
+				</p>
 			</div>
 		);
 	}
