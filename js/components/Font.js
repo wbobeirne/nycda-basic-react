@@ -2,8 +2,10 @@ const React = require("react");
 
 class Font extends React.Component {
 	render() {
+		const color = this.props.color;
+
 		return (
-			<Font style = {{color: 'blue'}}/>
+			<font className = "font" color={color}>{this.props.children}</font>
 		);
 	}
 }

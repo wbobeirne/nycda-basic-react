@@ -9,7 +9,7 @@ class App extends React.Component {
 			<div className="app">
 				<Title>Test Title</Title>
 				<Description library="will.js"/>
-				<Font>Bob Law Bob Blog</Font>
+				<Font color="purple">Bob Law Bob Blog</Font>
 			</div>
 		);
 	}
