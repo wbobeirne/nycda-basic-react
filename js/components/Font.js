@@ -10,7 +10,7 @@ class Font extends React.Component {
 	}
 }
 
-Title.propTypes = {
+Font.propTypes = {
 	size: PropTypes.number.isRequired,
 	color: PropTypes.string.isRequired,
 };
