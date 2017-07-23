@@ -1,15 +1,16 @@
 const React = require("react");
+const Title = require("./components/Title");
+const Description = require("./components/Description");
+const Color = require("./components/Color");
 
 class App extends React.Component {
 	render() {
-		const libName = "React";
-
-		return React.createElement("div", { className: "app" },
-			React.createElement("h1", { className: "app-title" }, "Hello!"),
-			React.createElement("p", { className: "app-text" }, `
-				This is ${libName}. Even though we don't have any elements on the page
-				to start, ${libName} quickly fills in the javascript content.
-			`),
+		return (
+			<div className="app">
+				<Title>Test Title</Title>
+				<Description library='will.js'/>
+				<Color>Test</Color>
+			</div>
 		);
 	}
 }
