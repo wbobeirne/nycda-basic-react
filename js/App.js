@@ -1,5 +1,6 @@
 const React = require("react");
 const Title = require("./components/Title");
+const Font = require("./components/Font");
 const Description = require("./components/Description");
 const Counter = require("./components/Counter");
 

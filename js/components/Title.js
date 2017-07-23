@@ -8,4 +8,5 @@ class Title extends React.Component {
 	}
 }
 
+
 module.exports = Title;
