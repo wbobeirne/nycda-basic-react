@@ -9,7 +9,7 @@ class App extends React.Component {
 			<div className="app">
 				<Title>Test Title</Title>
 				<Description library='will.js'/>
-				<Color>Test</Color>
+				<Color size = "6" color = "red">Test</Color>
 			</div>
 		);
 	}
