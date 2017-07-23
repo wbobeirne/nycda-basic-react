@@ -11,7 +11,7 @@ class App extends React.Component {
 			<div className="app">
 				<Title>Yo this be a test</Title>
 				<Description library="React"/>
-				<ColorTag color size> Rendering this color text</ColorTag>
+				<ColorTag color="purple" size> Rendering this color text</ColorTag>
 			</div>
 		);
 	}

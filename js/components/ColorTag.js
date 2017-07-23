@@ -2,9 +2,10 @@ const React = require("react");
 
 class ColorTag extends React.Component {
   render() {
-    const fontAttributes = this.props.attribute;
+    const fontColor = this.props.color;
+    const fontSize =  this.props.size;
     return (
-      <font className = "ColorTag" size = {fontAttributes} color = {fontAttributes}>{this.props.children}</font>
+      <font className="font" color={fontColor} size={fontSize}>{this.props.children}</font>
     );
   }
 }
