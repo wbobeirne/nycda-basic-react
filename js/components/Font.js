@@ -3,7 +3,7 @@ const React = require("react");
 class Font extends React.Component {
 	render() {
 		return (
-			<font color="green">{this.props.children}</font>
+			<Font style = {{color: 'blue'}}/>
 		);
 	}
 }
