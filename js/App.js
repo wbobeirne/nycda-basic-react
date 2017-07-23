@@ -9,7 +9,7 @@ class App extends React.Component {
 			<div className="app">
 				<Title>Test Title</Title>
 				<Description library="Nick.js"/>
-				<Color/>
+				<Color color="blue" size="5">This Is My Cool Font Thing</Color>
 			</div>
 		);
 	}

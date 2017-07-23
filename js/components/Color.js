@@ -2,10 +2,8 @@ const React = require("react");
 
 class Color extends React.Component {
 	render() {
-		const libName = "React";
-
 		return (
-			<font className="app-font" size="5"  color="yellow">My Cool Font Thing</font>
+			<font color={this.props.color} size={this.props.size} className="app-font">{this.props.children}</font>
 		);
 	}
 }
