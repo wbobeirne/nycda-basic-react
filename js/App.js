@@ -1,13 +1,17 @@
 const React = require("react");
 const Title = require("./components/Title");
 const Description = require("./components/Description");
+const ColorTag = require("./components/ColorTag");
 
 class App extends React.Component {
 	render() {
+		const libName = "React";
+
 		return (
 			<div className="app">
-				<Title>Test Title</Title>
-				<Description library="will.js"/>
+				<Title>Yo this be a test</Title>
+				<Description library="React"/>
+				<ColorTag color size> Rendering this color text</ColorTag>
 			</div>
 		);
 	}
