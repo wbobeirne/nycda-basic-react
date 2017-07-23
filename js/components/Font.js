@@ -1,4 +1,6 @@
 const React = require("react");
+const PropTypes = require("prop-types");
+
 
 class Font extends React.Component {
 	render() {
@@ -7,5 +9,11 @@ class Font extends React.Component {
 		);
 	}
 }
+
+Title.propTypes = {
+	size: PropTypes.number.isRequired,
+	color: PropTypes.string.isRequired,
+};
+
 
 module.exports = Font;
