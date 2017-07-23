@@ -1,6 +1,8 @@
 const React = require("react");
 const Title = require("./components/Title");
 const Description = require("./components/Description");
+const FontColor = require("./components/FontColor");
+
 
 class App extends React.Component {
 	render() {
@@ -8,6 +10,7 @@ class App extends React.Component {
 			<div className="app">
 				<Title>Test Title</Title>
 				<Description library="will.js"/>
+				<FontColor color="red"/>
 			</div>
 		);
 	}
