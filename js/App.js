@@ -1,7 +1,7 @@
 const React = require("react");
 const Title = require("./components/Title");
 const Description = require("./components/Description");
-const colorTag = require("./components/colorTag");
+const ColorTag = require("./components/ColorTag");
 
 class App extends React.Component {
 	render() {
@@ -11,7 +11,7 @@ class App extends React.Component {
 			<div className="app">
 				<Title>Yo this be a test</Title>
 				<Description library="React"/>
-				<colorTag>Color Text</colorTag>
+				<ColorTag color = "purple" size = "4"> Rendering this color text</ColorTag>
 			</div>
 		);
 	}

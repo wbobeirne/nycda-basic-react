@@ -1,6 +1,6 @@
 const React = require("react");
 
-class colorTag extends React.Component {
+class ColorTag extends React.Component {
   render() {
     return (
       <font color="purple">{this.props.children}</font>
@@ -8,4 +8,4 @@ class colorTag extends React.Component {
   }
 }
 
-module.exports = colorTag;
+module.exports = ColorTag;
