@@ -34,33 +34,3 @@ let	timer = setInterval(() => {
 }
 
 module.exports = Countdown;
-
-// const React = require("react");
-
-// class Countdown extends React.Component {
-// 	constructor(props) {
-// 		super(props);
-// 		this.state = {
-// 			time: props.start || 5,
-// 		};
-
-// 		setInterval(() => {
-// 			if (this.state.number === 0) {
-// 				this.setState(() => {
-// 					alert("Just Kidding");
-// 				});
-// 			} else
-// 			{this.setState({
-// 				time: this.state.number - 1,
-// 			});}
-// 		}, 1000);
-// 	}
-// 	render() {
-// 		const { number } = this.state;
-// 		return (
-// 			<span>{number}</span>
-// 		);
-// 	}
-// }
-
-// module.exports = Countdown;
