@@ -17,7 +17,6 @@ class Counter extends React.Component {
 
 	render() {
 		const { number } = this.state;
-
 		return (
 			<span>{number}</span>
 		);
@@ -25,3 +24,4 @@ class Counter extends React.Component {
 }
 
 module.exports = Counter;
+
