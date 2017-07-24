@@ -10,19 +10,19 @@ class Countdown extends React.Component {
 
 let	timer = setInterval(() => {
 			if(this.state.number > 0){
-			console.log(this.state.number)
+			console.log(this.state.number);
 			this.setState({
 				number: this.state.number - 1,
 			});
 			} else {
-			alert("Magic is here")	
-		  clearInterval(timer)
+			alert("Magic is here");	
+		  clearInterval(timer);
 			
 		
 			}
 		}, 1000);
-			alert("Magic is about to happen")
-			return	clearInterval(this.timer)
+			alert("Magic is about to happen");
+			
 	  
 	}
 
