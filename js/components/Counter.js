@@ -15,6 +15,17 @@ class Counter extends React.Component {
 		}, 1000);
 	}
 
+
+let countDown = setInterval(() => {
+	if (this.state.number > 0) {
+		this.setState({ timeLeft: this.state.timeLeft -1 });
+	}
+	else {
+		alert("Get out of here!");
+		clearInterval(this.state.interval);
+	}
+})
+
 	render() {
 		const { number } = this.state;
 

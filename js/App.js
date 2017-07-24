@@ -1,7 +1,9 @@
 const React = require("react");
 const Title = require("./components/Title");
 const Description = require("./components/Description");
+const Font = require("./components/Font");
 const Counter = require("./components/Counter");
+const Countdown = require("./components/Countdown");
 
 class App extends React.Component {
 	render() {
@@ -9,9 +11,14 @@ class App extends React.Component {
 			<div className="app">
 				<Title>Test Title</Title>
 				<Description library="will.js"/>
-				<p>
-					You have been on my site for <Counter start={0}/> seconds
-				</p>
+				<Font color="purple">Bob Law Bob Blog (Arrested Development Ref)</Font>
+<p>
+				{/* You've been on this page for <Counter start={0}/> seconds */}
+</p>
+
+<p>
+			You need to boot this page in <Countdown start={5}/> seconds
+</p>
 			</div>
 		);
 	}
